@@ -10,7 +10,6 @@ public class compareTo {
         } else if (address1.zip > address2.zip) {
             System.out.println(address2.street + " is smaller than " + address1.street);
         } else {
-            // If zip codes are equal, use tiebreaker
             char streetOneFirstChar = address1.street.charAt(0);
             char streetTwoFirstChar = address2.street.charAt(0);
             for (int i = 0; i < tieBreaker.length; i++) {
